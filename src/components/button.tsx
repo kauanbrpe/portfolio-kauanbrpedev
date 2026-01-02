@@ -14,6 +14,7 @@ export const buttonVariants = cva("flex items-center justify-center cursor-point
             quarternary: "bg-gray-extremities text-black hover:bg-white hover:text-black transition-colors"
         },
         size: {
+            small: "h-10 py-2 px-4",
             md: "h-14 py-4 px-5",
             big: "h-56 py-6 px-8 text-2xl",
             medium: "h-20 py-5 px-6 text-2xl"
@@ -37,10 +38,17 @@ export const buttonTextVariants = cva("", {
     variants: {
         variant: {
             primary:  "text-white group-hover:text-gray-extremities"
+        }, 
+        size: {
+            small: "text-sm",
+            md: "text-md",
+            big: "text-2xl",
+            medium: "text-2xl"
         }
     },
     defaultVariants: {
-        variant: "primary"
+        variant: "primary",
+        size: "small"
     }
 })
 
