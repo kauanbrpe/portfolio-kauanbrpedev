@@ -56,10 +56,12 @@ export default function Stacks() {
                         <div className="flex gap-3 items-center">
                         <Button variant="primary" icon={FaHtml5}>HTML5</Button>
                         <Button variant="primary" icon={IoLogoCss3}>CSS3</Button>
-                        <Button variant="primary" icon={IoLogoJavascript}>JavaScript</Button>
                         </div>
                         <div className="flex gap-3 items-center">
+                        <Button variant="primary" icon={IoLogoJavascript}>JavaScript</Button>
                         <Button variant="primary" icon={SiTypescript}>TypeScript</Button>
+                        </div>
+                        <div className="flex gap-3 items-center">
                         <Button variant="primary" icon={RiTailwindCssFill}>Tailwind CSS</Button>
                         <Button variant="primary" icon={FaReact}>React.js</Button>
                         </div>
@@ -81,11 +83,11 @@ export default function Stacks() {
                     <div className="flex flex-col space-y-2 items-center md:items-start">
                         <Text variant="body-stacks" className="border-l-6 border-l-white pl-2">Nuvem e DevOps</Text>
                         <div className="flex gap-3 items-center">
-                        <Button variant="primary" icon={FaAws}>Amazon Web Services</Button>
+                        <Button variant="primary" icon={FaDocker}>Docker</Button>
                         <Button variant="primary" icon={ServiceNow}>ServiceNow</Button>
                         </div>
                         <div className="flex gap-3 items-center">
-                        <Button variant="primary" icon={FaDocker}>Docker</Button>
+                        <Button variant="primary" icon={FaAws}>Amazon Web Services</Button>
                         </div>
                     </div>
 

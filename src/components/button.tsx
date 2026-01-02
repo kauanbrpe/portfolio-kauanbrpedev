@@ -40,6 +40,7 @@ export const buttonTextVariants = cva("", {
             primary:  "text-white group-hover:text-gray-extremities"
         }, 
         size: {
+            smaller: "text-xs",
             small: "text-sm",
             md: "text-md",
             big: "text-2xl",
@@ -48,7 +49,7 @@ export const buttonTextVariants = cva("", {
     },
     defaultVariants: {
         variant: "primary",
-        size: "small"
+        size: "md"
     }
 })
 
@@ -86,6 +87,6 @@ export default function Button({
 }: ButtonProps) {
     return <button className={buttonVariants({variant, size, disabled, handling, className})} {...props}>
         {icon && <Icon svg={handling ? SpinnerIcon : icon} animate={handling} className={buttonIconVariants()} /> }
-        <Text variant="body-md-bold" className={buttonTextVariants()}>{children}</Text>
+        <Text variant="body-md-bold" className={buttonTextVariants({size})}>{children}</Text>
     </button>;
 }
