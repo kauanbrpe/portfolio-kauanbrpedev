@@ -37,7 +37,7 @@ export default function Stacks() {
                     Stacks
                 </Text>
 
-                <div className="px-4 gap-4 space-y-3 grid grid-cols-1 sm:grid-cols-2 gap-y-6">
+                <div className="max-w-5xl mx-auto px-6 gap-4 space-y-3 grid grid-cols-1 sm:grid-cols-2 gap-y-6">
                     {/* Back-end */}
                     <div className="flex flex-col space-y-2 items-center md:items-start">
                         <Text variant="body-stacks" className="border-l-6 border-l-white pl-2">Back-end</Text>
