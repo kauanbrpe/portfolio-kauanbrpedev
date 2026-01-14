@@ -10,7 +10,6 @@ export const buttonVariants = cva("flex items-center justify-center cursor-point
             none: "",
             primary: "bg-black hover:bg-white border border-white",
             secondary: "bg-black-initial hover:bg-white border border-white",
-            tertiary: "bg-transparent hover:bg-white border border-white text-white",
             quarternary: "bg-gray-extremities text-black hover:bg-white hover:text-black transition-colors"
         },
         size: {

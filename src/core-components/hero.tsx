@@ -1,7 +1,7 @@
 import Text from "../components/text.tsx";
-import imgKauan from "../assets/images/LXKZMHrM_400x400 (7).jpg";
+import imgKauan from "../assets/images/1768418275548.jpg";
 import Button from "../components/button.tsx";
-
+import { CiShare1 } from "react-icons/ci";
 
 export default function Hero() {
     const handleGoToContato = () => {
@@ -16,6 +16,7 @@ export default function Hero() {
                 <Text as="h5" variant="body-bold-text">Tenho 19 anos, sou Pernambucano de Recife e <br />sou apaixonado pela computação desde criança.</Text>
                 <div className="app gap-4 space-y-3 flex md:text-left justify-center md:justify-start">
                     <Button onClick={handleGoToContato} variant="secondary">Entre em contato</Button>
+                    <a href="https://docs.google.com/document/d/1KNPrDSo3YscS7MV94Gu_6UiMQ4OrPv24_vGh_9Sm6cw/edit?usp=sharing" target="_blank"><Button variant="secondary" icon={CiShare1}>Ver meu CV</Button></a>
                 </div>
             </div>
 

@@ -4,7 +4,6 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { IoDocumentAttachSharp } from "react-icons/io5";
 import Lattes from "../assets/icons/lattes.svg?react"
 
 export default function Links() {
@@ -30,10 +29,6 @@ export default function Links() {
 
                     <a href="mailto:kauanbrpe.dev@hotmail.com" className="m-2">
                         <Button variant="secondary" size="medium" icon={MdEmail}>kauanbrpe.dev@hotmail.com</Button>
-                    </a>
-
-                    <a href="https://docs.google.com/document/d/1KNPrDSo3YscS7MV94Gu_6UiMQ4OrPv24_vGh_9Sm6cw/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="m-2">
-                        <Button variant="secondary" size="medium" icon={IoDocumentAttachSharp}>Currículo</Button>
                     </a>
 
                     <a href="https://lattes.cnpq.br/6860961717611650" target="_blank" rel="noopener noreferrer" className="m-2">
