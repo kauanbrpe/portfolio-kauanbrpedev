@@ -2,6 +2,20 @@ import Text from "../components/text";
 import imgKauanPequeno from "../assets/images/186141320_1210295672762325_3260778299289279910_n 1.png";
 
 export default function About() {
+    function calcularIdade(){
+        const nascimento = new Date(2006, 7, 1)
+        const hoje = new Date()
+        let idade = hoje.getFullYear() - nascimento.getFullYear()
+
+        const aindaNaoFezAniversario = hoje.getMonth() < 7 || (hoje.getMonth() === 0 && hoje.getDate() < 11)
+
+        if (aindaNaoFezAniversario){
+            idade--
+        }
+
+        return idade
+    }
+
     return (
         <section id="sobremim" className="bg-black text-white py-10">
         <div className="max-w-5xl mx-auto px-6">
@@ -12,8 +26,9 @@ export default function About() {
             <div className="grid gap-10 md:grid-cols-2 items-start">
                 <div className="text-base md:text-lg leading-relaxed space-y-6">
                     <p>
-                        Tenho 19 anos e faço Análise e Desenvolvimento de Sistemas pelo Centro Universitário Tiradentes pelo Programa
-                        Embarque Digital, que é um programa em parceria da Prefeitura da Cidade do Recife e o Porto Digital.
+                        Tenho {calcularIdade()} anos e faço Análise e Desenvolvimento de Sistemas pelo Centro Universitário Tiradentes pelo Programa
+                        Embarque Digital, que é um programa em parceria da Prefeitura da Cidade do Recife e o Porto Digital, e
+                        atuo como Estagiário ServiceNow na Extreme Digital Experience.
                     </p>
 
                     <p>
@@ -22,8 +37,7 @@ export default function About() {
                     </p>
 
                     <p>
-                        Torcedor fanático do Náutico, fã de Linkin Park, jogador de Valorant. Desde pequeno, fascinado pela
-                        computação.
+                        Torcedor fanático do Náutico, fã de Linkin Park. Desde pequeno, fascinado pela computação.
                     </p>
                     </div>
 

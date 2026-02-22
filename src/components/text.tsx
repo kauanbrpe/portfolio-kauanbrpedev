@@ -14,7 +14,11 @@ export const textVariants = cva("font-sans text-white", {
             "body-bold-title-pages": "text-2xl font-bold",
             "body-bold-subtile": "text-4xl font-bold",
             "body-bold-text": " font-bold",
-            "body-small": "text-xs font-normal" 
+            "body-small": "text-xs font-normal",
+            "body-sm-italic": "text-sm italic font-normal",
+            "body-md-italic": "text-2xl italic font-normal",
+            "body-sm-italic-bold": "text-sm italic font-bold",
+            "body-md-italic-bold": "text-2xl italic font-bold"
         }
     },
     defaultVariants: {

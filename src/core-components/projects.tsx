@@ -87,8 +87,7 @@ export default function Projects() {
                     O ControlDesk é uma aplicação voltada para requisição de
                     Equipamentos de TI, com a automação proposta pela ServiceNow, contêm
                     automações que informa ao usuário final em qual parte da sua
-                    solicitação ela está. Esse projeto foi um Desafio proposto pela EDX
-                    - Extreme Digital, pela Residência Tecnológica do Porto Digital.
+                    solicitação ela está. Esse projeto foi um Desafio proposto pela Extreme Digital Experiencie, pela Residência Tecnológica do Porto Digital.
                     <br />
                     <br />
                     Fui o responsável por toda a programação do projeto, desde das

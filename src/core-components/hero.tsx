@@ -7,17 +7,32 @@ export default function Hero() {
     const handleGoToContato = () => {
     document.getElementById("contato")?.scrollIntoView({ behavior: "smooth" });
 };
+
+    function calcularIdade(){
+        const nascimento = new Date(2006, 7, 1)
+        const hoje = new Date()
+        let idade = hoje.getFullYear() - nascimento.getFullYear()
+
+        const aindaNaoFezAniversario = hoje.getMonth() < 7 || (hoje.getMonth() === 0 && hoje.getDate() < 11)
+
+        if (aindaNaoFezAniversario){
+            idade--
+        }
+
+        return idade
+    }
     
     return (
         <section className="w-full bg-black-initial flex flex-col md:flex-row items-center justify-center md:h-135 h-auto py-8 sm:py-0">
             <div className="px-4 sm:px-6 gap-4 space-y-3 text-center md:text-left">
                 <Text as="h1" variant="body-bold-title">Kauan Henrique</Text>
-                <Text as="h2" variant="body-bold-subtile">Dev Back-end | ADS - UNIT</Text>
-                <Text as="h5" variant="body-bold-text">Tenho 19 anos, sou Pernambucano de Recife e <br />sou apaixonado pela computação desde criança.</Text>
+                <Text as="h2" variant="body-bold-subtile">Dev ServiceNow - EDX | ADS - UNIT</Text>
+                <Text as="h5" variant="body-bold-text">Tenho {calcularIdade()} anos, sou Pernambucano de Recife <br />e sou apaixonado pela computação desde criança.</Text>
                 <div className="app gap-4 space-y-3 flex md:text-left justify-center md:justify-start">
                     <Button onClick={handleGoToContato} variant="secondary">Entre em contato</Button>
                     <a href="https://docs.google.com/document/d/1KNPrDSo3YscS7MV94Gu_6UiMQ4OrPv24_vGh_9Sm6cw/edit?usp=sharing" target="_blank"><Button variant="secondary" icon={CiShare1}>Ver meu CV</Button></a>
                 </div>
+                <Text variant="body-sm-italic" className="text-center">"Todos nascem originais, mas muitos morrem como fotocópias” - São Carlo Acutis</Text>
             </div>
 
             <div className="md:ml-45 mt-6 md:mt-0 shrink-0">

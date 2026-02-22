@@ -22,6 +22,10 @@ const handleGoToStacks = () => {
     document.getElementById("contato")?.scrollIntoView({ behavior: "smooth" });
 };
 
+  const handleGoToProfissional = () => {
+    document.getElementById("experiencia")?.scrollIntoView({ behavior: "smooth"})
+  }
+
   return (
     <header className="w-full h-20 flex items-center px-4 sm:px-6 gap-4 border-b bg-gray-extremities relative">
       <img src={logoImg} alt="Logo Kauan Henrique" className="w-15 h-15" />
@@ -29,11 +33,12 @@ const handleGoToStacks = () => {
 
       <div className="ml-auto flex items-center">
         {/* Links visíveis em md+ */}
-        <nav className="hidden md:flex gap-6 items-center">
-          <Button onClick={handleGoToSobreMim} variant="quarternary">Sobre mim</Button>
-          <Button onClick={handleGoToProjetos} variant="quarternary">Projetos</Button>
-          <Button onClick={handleGoToStacks} variant="quarternary">Stacks</Button>
-          <Button onClick={handleGoToContato} variant="quarternary">Contato</Button>
+        <nav className="hidden md:flex items-center">
+          <Button onClick={handleGoToSobreMim} variant="quarternary" size="small">Sobre mim</Button>
+          <Button onClick={handleGoToProjetos} variant="quarternary" size="small">Projetos</Button>
+          <Button onClick={handleGoToProfissional} variant="quarternary" size="small">Experiência</Button>
+          <Button onClick={handleGoToStacks} variant="quarternary" size="small">Stacks</Button>
+          <Button onClick={handleGoToContato} variant="quarternary" size="small">Contato</Button>
         </nav>
 
         {/* Botão hambúrguer em mobile */}
@@ -55,6 +60,7 @@ const handleGoToStacks = () => {
             <div className="absolute right-4 top-full mt-2 bg-black text-white rounded shadow-md py-2 px-3 flex flex-col gap-2 z-50 min-w-40">
               <a href="#sobremim" onClick={() => {setOpen(false)}}><Text variant="body-sm">Sobre mim</Text></a>
               <a href="#projeto" onClick={() => setOpen(false)}><Text variant="body-sm">Projetos</Text></a>
+              <a href="#experiencia" onClick={() => setOpen(false)}><Text variant="body-sm">Experiência</Text></a>
               <a href="#stacks" onClick={() => setOpen(false)}><Text variant="body-sm">Stacks</Text></a>
               <a href="#contato" onClick={() => setOpen(false)}><Text variant="body-sm">Contato</Text></a>
             </div>

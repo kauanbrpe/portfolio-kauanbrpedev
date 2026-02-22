@@ -5,6 +5,7 @@ import About from "./core-components/about.tsx";
 import Projects from "./core-components/projects.tsx";
 import Stacks from "./core-components/stacks.tsx";
 import Links from "./core-components/links.tsx";
+import Profissional from "./core-components/profissional.jsx";
 
 export default function App() {
     return (
@@ -13,6 +14,7 @@ export default function App() {
             <Hero />
             <About />
             <Projects />
+            <Profissional />
             <Stacks />
             <Links />
             <Baseboard />
