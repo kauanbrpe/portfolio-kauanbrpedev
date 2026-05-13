@@ -5,6 +5,7 @@ import { FaJava } from "react-icons/fa6";
 import CSharp from "../assets/icons/icons8-c-sharp-logo.svg?react"
 import { SiDotnet } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 /* Front-end */
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
@@ -53,6 +54,9 @@ export default function Stacks() {
                         <div className="flex gap-3 items-center">
                             <Button variant="secondary" icon={CSharp}>C Sharp</Button>
                             <Button variant="secondary" icon={SiDotnet}>DotNet</Button>
+                        </div>
+                        <div className="flex gap-3 items-center">
+                            <Button variant="secondary" icon={FaNodeJs}>Node.js</Button>
                         </div>
                     </div>
 

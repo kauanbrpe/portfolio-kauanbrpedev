@@ -32,8 +32,10 @@ export default function About() {
                     </p>
 
                     <p>
-                        Também atuo como Designer Gráfico na página LOUD Pernambuco e Fotógrafo pela Pastoral da Comunicação da
-                        Paróquia Nossa Senhora do Rosário e Santa Luzia, a Paróquia da Torre.
+                        Além disso, atuo como Designer Gráfico na página LOUD Pernambuco. No âmbito religioso, trabalho como Fotógrafo pela 
+                        Pastoral da Comunicação da Paróquia Nossa Senhora do Rosário e Santa Luzia, na Torre, 
+                        e desempenho tanto a fotografia quanto o design gráfico na 
+                        Pastoral da Comunicação da Paróquia de Nossa Senhora de Belém, na Encruzilhada.
                     </p>
 
                     <p>

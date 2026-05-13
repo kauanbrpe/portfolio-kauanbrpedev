@@ -34,6 +34,7 @@ export default function Profissional() {
                 <div className="flex gap-3 py-2 items-center">
                     <Button variant="primary" size="small">ServiceNow</Button>
                     <Button variant="primary" size="small">JavaScript</Button>
+                    <Button variant="primary" size="small">Angular.js</Button>
                 </div>
             </div>
         </section>
