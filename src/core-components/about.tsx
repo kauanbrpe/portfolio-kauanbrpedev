@@ -26,7 +26,7 @@ export default function About() {
             <div className="grid gap-10 md:grid-cols-2 items-start">
                 <div className="text-base md:text-lg leading-relaxed space-y-6">
                     <p>
-                        Tenho {calcularIdade()} anos e faço Análise e Desenvolvimento de Sistemas pelo Centro Universitário Tiradentes pelo Programa
+                        Padrinho da Ísis e da Maria Luiza. Tenho {calcularIdade()} anos e faço Análise e Desenvolvimento de Sistemas pelo Centro Universitário Tiradentes pelo Programa
                         Embarque Digital, que é um programa em parceria da Prefeitura da Cidade do Recife e o Porto Digital, e
                         atuo como Estagiário ServiceNow na Extreme Digital Experience.
                     </p>
