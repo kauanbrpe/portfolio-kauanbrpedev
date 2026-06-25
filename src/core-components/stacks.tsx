@@ -5,7 +5,8 @@ import { FaJava } from "react-icons/fa6";
 import CSharp from "../assets/icons/icons8-c-sharp-logo.svg?react"
 import { SiDotnet } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa"
+import { SiFlask } from "react-icons/si";
 /* Front-end */
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
@@ -23,7 +24,8 @@ import { FaAws } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import ServiceNow from "../assets/icons/ServiceNow_idGUxIPT8-_0.svg?react";
 import { IoLogoVercel } from "react-icons/io5";
-/* Versionamento e Documentação */
+import { SiRender } from "react-icons/si";
+/* APIs e Versionamento */
 import { FaGitAlt } from "react-icons/fa6";
 import { SiSwagger } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
@@ -52,10 +54,11 @@ export default function Stacks() {
                             <Button variant="secondary" icon={FaPython}>Python</Button>
                         </div>
                         <div className="flex gap-3 items-center">
+                            <Button variant="secondary" icon={SiFlask}>Flask</Button>
                             <Button variant="secondary" icon={CSharp}>C Sharp</Button>
-                            <Button variant="secondary" icon={SiDotnet}>DotNet</Button>
                         </div>
                         <div className="flex gap-3 items-center">
+                            <Button variant="secondary" icon={SiDotnet}>DotNet</Button>
                             <Button variant="secondary" icon={FaNodeJs}>Node.js</Button>
                         </div>
                     </div>
@@ -102,12 +105,13 @@ export default function Stacks() {
                         </div>
                         <div className="flex gap-3 items-center">
                         <Button variant="secondary" icon={IoLogoVercel}>Vercel</Button>
+                        <Button variant="secondary" icon={SiRender}>Render</Button>
                         </div>
                     </div>
 
-                    {/* Versionamento e Documentação */}
+                    {/* APIs e Versionamento */}
                     <div className="flex flex-col space-y-2 items-center md:items-start">
-                        <Text variant="body-stacks" className="border-l-6 border-l-white pl-2">Versionamento e Documentação</Text>
+                        <Text variant="body-stacks" className="border-l-6 border-l-white pl-2">APIs e Versionamento</Text>
                         <div className="flex gap-3 items-center">
                         <Button variant="secondary" icon={FaGitAlt}>Git</Button>
                         <Button variant="secondary" icon={SiSwagger}>Swagger</Button>
