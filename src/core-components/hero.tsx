@@ -32,7 +32,7 @@ export default function Hero() {
     return (
         <section className="w-full bg-black-initial flex flex-col md:flex-row items-center justify-center md:h-135 h-auto py-8 sm:py-0">
             <div className="px-4 sm:px-6 gap-4 space-y-3 text-center md:text-left">
-                <Text as="h1" variant="body-bold-title" className="transition-opacity duration-500">{isHovered ? "Meu Padre é Romeu" : "Kauan Henrique"}</Text>
+                <Text as="h1" variant="body-bold-title" className="transition-opacity duration-500">{isHovered ? "Meu Padre é Romeu" : "Kauan Lima"}</Text>
                 <Text as="h2" variant="body-bold-subtile">Dev ServiceNow - EDX | ADS - UNIT</Text>
                 <Text as="h5" variant="body-bold-text">Tenho {calcularIdade()} anos, sou Pernambucano de Recife <br />e sou apaixonado pela computação desde criança.</Text>
                 <div className="app gap-4 space-y-3 flex md:text-left justify-center md:justify-start">

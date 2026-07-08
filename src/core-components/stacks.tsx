@@ -17,7 +17,6 @@ import { RiTailwindCssFill } from "react-icons/ri";
 /* Banco de Dados */
 import { GrMysql } from "react-icons/gr";
 import { DiMsqlServer } from "react-icons/di";
-import SqlDeveloper from "../assets/icons/file_type_sql_icon_130152.svg?react"
 import { SiSqlite } from "react-icons/si";
 /* Nuvem e DevOps */
 import { FaAws } from "react-icons/fa";
@@ -88,7 +87,6 @@ export default function Stacks() {
                         <Button variant="secondary" icon={DiMsqlServer}>SQL Server</Button>
                         </div>
                         <div className="flex gap-3 items-center">
-                        <Button variant="secondary" icon={SqlDeveloper}>SQL Developer</Button>
                         <Button variant="secondary" icon={SiSqlite}>SQLite</Button>
                         </div>
                     </div>

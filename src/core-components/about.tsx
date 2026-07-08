@@ -28,7 +28,7 @@ export default function About() {
                     <p>
                         Padrinho da Ísis e da Maria Luiza. Tenho {calcularIdade()} anos e faço Análise e Desenvolvimento de Sistemas pelo Centro Universitário Tiradentes pelo Programa
                         Embarque Digital, que é um programa em parceria da Prefeitura da Cidade do Recife e o Porto Digital, e
-                        atuo como Estagiário ServiceNow na Extreme Digital Experience.
+                        atuo como Desenvolvedor ServiceNow na Extreme Digital Experience.
                     </p>
 
                     <p>

@@ -15,7 +15,7 @@ export default function Profissional() {
 
             <div className="bg-black max-w-5xl mx-auto px-6 gap-4 space-y-3 py-5 rounded-2xl border border-white">
                 <div className="">
-                    <Text variant="body-md" className="border-l-6 border-l-white pl-2">Estagiário em ServiceNow</Text>
+                    <Text variant="body-md" className="border-l-6 border-l-white pl-2">Desenvolvedor ServiceNow</Text>
                 </div>
                 <IoIosBusiness size={24} className="inline-block mb-1 mr-2" />
                 <Text>Extreme Digital Experience</Text>
